@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:white;
+    --cor1:#e6e6e6;
+    --cor2:#4e4e4e;
+    --cor3:#2FA866;
+    --cor4:#1A5C37;
+    --cor5:#f7b600;}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background: var(--cor1)
+}
+
+/*
+***Layout***
+*/
+
+header{
+    background-color:var(--cor5) ;
+    padding: 15px;
+    text-align: center;
+}
+
+#Logo, #menu{
+    padding: 10px;
+}
+
+/*
+***Formatação do Menu***
+*/
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+a:link, a:visited{
+    color: var(--cor0);
+    padding: 10px;
+
+}
+
+a:hover{
+    background-color: var(--cor0);
+    color: var(--cor5); 
+}
+
+
+/*
+***Formatação Gerais***
+*/
+
+h1{
+    color: var(--cor2);
+    font-weight: 2.5em;
+}
+
+.branco{
+    color: var(--cor0);
+}
